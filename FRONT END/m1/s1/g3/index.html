@@ -8,18 +8,29 @@
     <meta name="description"content="Ricreare web page esempio">
 </head>
 <body>
-    <header  id="header">
+    <header >
+        <div class=header>
             <img src="assets/logo.png" alt="logo sito">
+        </div >
+        <div class=header>
             <p id="p-header">part of <span id="span">A SIMPLE FABOULUS THANKSGIVING</span></p>
-    </header>       
-        <main  id="main">
-        <h1>Focaccia with Caramelized Onions,<br>
+        </div>
+    </header> 
+    <div class=main-div>        
+        <main >
+            <div>
+        <h1 class="h1">Focaccia with Caramelized Onions,<br>
             Cranberries, and Brie</h1>
-        <p id="des-p">Wow your taste buds with this festive focaccia appetizer 
+        </div>
+        <p >Wow your taste buds with this festive focaccia appetizer 
         topped with sweet caramelized onions,tart cranberries and creamy brie.
         It will become your new favourite holiday starter!</p>
-        <img id="focaccia" src="assets/focaccia.png">
-        <p id="author">Image: Sally Vegas</p>
+        <div class="main-img">
+            <figure> 
+                <img id="focaccia" src="assets/focaccia.png">
+                <p id="author">Image: Sally Vegas</p>
+            </figure>
+        </div>
         <aside id="aside">
             <h4>FEATURED IN</h4>
             <a href="#" class="ancora">Fresh Cranberry Recipies That Go Beyond Sauce</a>
@@ -47,10 +58,12 @@
             <section class="section">
                 <h2 class="h2">Method</h2>
                 <ol class="list">
-                    <li>In a medium-sized mixing bowl, or in a stand in mixer with a paddle attachment,
+                    <li>
+                    <strong>Make the focaccia dough</strong>
+                    <p>In a medium-sized mixing bowl, or in a stand in mixer with a paddle attachment,
                         mix together all the dough ingridients until the flour is fully absorbed.
                         You don't need to actually knead the dough, though I sometimes knead it a few
-                        times in the bowl when mixing by hand to incorporate the last of the flour...
+                        times in the bowl when mixing by hand to incorporate the last of the flour...</p>
                     </li>
                 </ol>
             </section>
@@ -58,6 +71,7 @@
     </main>
     <footer id="footer" >
         <p>Read more on <a href="#" class="ancora">Symply recipies</a></p>
-    </footer>
+    </footer> 
+</div> 
 </body>
 </html>

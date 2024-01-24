@@ -2,6 +2,9 @@ body {
 width: 100%;
 margin:auto;
 }
+.header{
+    text-align: center;
+}
 #header img{
     width: 200px;
 }
@@ -24,21 +27,20 @@ margin:auto;
 #span{
     font-weight: bold;
 }
-#main{
-    width: 50%;
-    display: flex;
-    flex-direction:column ;
-    align-items: center;
-    justify-content: center;
-    margin-inline:auto ;
+.main-div{
+    width: 800px;
+    margin: 0 auto;
 }
-#des-p{
-    max-width: 50%;
+.h1{
+    text-align: center;
 }
 #focaccia{
-    width: 45%;
+    width: 100%;
     border-radius: 15px;
     box-shadow: 2.5px 2.5px 2.5px 2.5px rgb(49, 99, 101)  ;
+}
+.main-img{
+    text-align: center;
 }
 #author{
     color: gray;
@@ -48,14 +50,6 @@ margin:auto;
 }
 h4{
     color: brown;    
-}
-.section{
-    display: flex;
-    flex-direction:column ;
-    align-items: center;
-}
-.list{
-    max-width: 55%
 }
 .h3{
     font-weight: bold;
@@ -67,9 +61,4 @@ h4{
 
 .ancora{
     color: rgb(0, 179, 255);
-}
-#footer{
-    display: flex;
-    flex-direction:column ;
-    align-items: center;
 }
