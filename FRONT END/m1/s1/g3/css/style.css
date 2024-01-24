@@ -1,0 +1,72 @@
+body {
+width: 100%;
+margin:auto;
+}
+#header img{
+    width: 200px;
+}
+#p-header{
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    background-color: lightyellow;
+    border-top: 0.1em solid yellow;
+    color: rgb(7, 155, 155);
+    padding-bottom:1.2em ;
+    width: 100vw;
+    
+}
+#header{
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+}
+#span{
+    font-weight: bold;
+}
+#main{
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+}
+#des-p{
+    max-width: 50%;
+}
+#focaccia{
+    width: 45%;
+    border-radius: 15px;
+    box-shadow: 2.5px 2.5px 2.5px 2.5px rgb(49, 99, 101)  ;
+}
+#author{
+    color: gray;
+} 
+#aside{
+    margin-bottom: 3.5em;
+}
+h4{
+    color: brown;    
+}
+.section{
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+}
+.list{
+    max-width: 55%
+}
+.h3{
+    font-weight: bold;
+}
+.h2{
+    border-bottom: 0.1em solid rgb(163, 225, 227) ;
+    padding-bottom: 1em;
+}
+
+.ancora{
+    color: rgb(0, 179, 255);
+}
+#footer{
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+}
